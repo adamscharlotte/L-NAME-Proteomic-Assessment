@@ -6,3 +6,9 @@ In a previous study we found that long-term inhibition of all NOS isoforms led t
 Spectral identification was performed with MaxQuant (version 1.6.11.0) using the Andromeda search engine with default search settings including a false discovery rate set at 1% on PSM and peptide level. The spectra were searched against the mouse proteins in the Swiss-Prot Reference Proteome database (database release version of June 2019 containing 22,282 mouse protein sequences). The mass tolerance for precursor and fragment ions were set to 4.5 and 20 ppm, respectively. Enzyme specificity was set as C-terminal to arginine and lysine, also allowing cleavage at proline bonds with a maximum of two missed cleavages. Variable modifications were set to oxidation of methionine residues and acetylation of protein N-termini, and carbamidomethylation of cysteine residues was set as fixed modification.
 
 The peptides.txt output was analyzed further with MSqRob2 <https://github.com/statOmics/msqrob2>. We performed data normalisation, protein inference, protein quantification, and looked for differentially expressed proteins (DEPs) at 2 weeks, 8 weeks, and 16 weeks. Additionally we performed a 2-way ANOVA.
+
+
+Contact
+-------
+
+For more information you can send an email to <charlotte.adams@uantwerpen.be>.
