@@ -7,6 +7,7 @@ Spectral identification was performed with MaxQuant (version 1.6.11.0) using the
 
 The peptides.txt output was analyzed further with MSqRob2 <https://github.com/statOmics/msqrob2>. We performed data normalisation, protein inference, protein quantification, and looked for differentially expressed proteins (DEPs) at 2 weeks, 8 weeks, and 16 weeks. Additionally we performed a 2-way ANOVA.
 
+The specific settings used to compile the lists of DEPs can be found in the R Markdown scripts <https://github.com/adamscharlotte/L-NAME-Proteomic-Assessment/tree/main/MSqRob2/Rmd>.
 
 Contact
 -------
